@@ -49,6 +49,6 @@ int main()
         scanf("%d", &p[iCnt]);
     }
     Display(p, iSize);
-
+    free(p);
     return 0;
 }
